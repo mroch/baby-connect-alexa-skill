@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "intent": "SleepStartIntent",
+      "slots": [
+        { "name": "child", "type": "LIST_OF_CHILDREN" }
+      ]
+    },
+    {
+      "intent": "SleepStopIntent",
+      "slots": [
+        { "name": "child", "type": "LIST_OF_CHILDREN" }
+      ]
+    },
+    {
+      "intent": "DiaperIntent",
+      "slots": [
+        { "name": "child", "type": "LIST_OF_CHILDREN" },
+        { "name": "diaper", "type": "LIST_OF_DIAPERS" }
+      ]
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}

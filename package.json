@@ -1,0 +1,17 @@
+{
+  "name": "baby-connect-alexa-skill",
+  "version": "0.0.1",
+  "description": "Unofficial Amazon Alexa skill for communicating with Baby Connect",
+  "main": "index.js",
+  "repository": "https://github.com/mroch/baby-connect-alexa-skill",
+  "author": "Marshall Roch <marshall@mroch.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7",
+    "baby-connect": "^0.0.4",
+    "moment-timezone": "^0.5.11"
+  },
+  "scripts": {
+    "zip": "zip -x baby_connect_skill.zip -rv baby_connect_skill.zip *"
+  }
+}

@@ -1,0 +1,21 @@
+SleepStartIntent {child} started sleeping
+SleepStartIntent {child} fell asleep
+SleepStartIntent {child} is sleeping
+SleepStartIntent {child} is down
+SleepStartIntent start a sleep timer for {child}
+SleepStartIntent start {child} sleep timer
+SleepStopIntent {child} stopped sleeping
+SleepStopIntent {child} woke up
+SleepStopIntent {child} is awake
+SleepStopIntent {child} is up
+SleepStopIntent stop the sleep timer for {child}
+SleepStopIntent stop {child} sleep timer
+DiaperIntent log a {diaper} diaper
+DiaperIntent log a {diaper} diaper for {child}
+DiaperIntent record a {diaper} diaper
+DiaperIntent record a {diaper} diaper for {child}
+DiaperIntent log a {diaper} one
+DiaperIntent log a {diaper} one for {child}
+DiaperIntent record a {diaper} one
+DiaperIntent record a {diaper} one for {child}
+DiaperIntent {child} had a {diaper} one
